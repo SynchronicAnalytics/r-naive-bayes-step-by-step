@@ -5,15 +5,15 @@
 # Preliminaries
 
 rm(list=ls()) 
-options(digits=2)    # This makes the numbers display better; feel free to change it.
+options(digits=3)    # This makes the numbers display better; feel free to change it.
 
 # Construct the data set
 
-pct.cash <- factor(c(1,1,1,2,2,1,2,2,1,3,3,3,3,2,3,3,1,1))
-wire.transfers <- factor(c(1,1,2,1,2,1,2,2,1,3,3,3,3,2,3,3,1,1))
-home.office <- factor(c(1,1,1,1,2,2,1,2,2,2,2,1,1,1,2,1,2,1))
-tax.owed <- factor(c(1,1,1,2,2,2,1,1,2,3,3,3,3,1,3,3,2,1))
-audit.risk <- factor(c(1,1,1,1,2,2,2,2,2,3,3,3,3,3,1,2,3,2))
+pct.cash <- factor(c(1,1,1,2,2,1,2,2,1,3,3,3,3,2,3,3,1,1,2))
+wire.transfers <- factor(c(1,1,2,1,2,1,2,2,1,3,3,3,3,2,3,3,1,1,2))
+home.office <- factor(c(1,1,1,1,2,2,1,2,2,2,2,1,1,1,2,1,2,1,2))
+tax.owed <- factor(c(1,1,1,2,2,2,1,1,2,3,3,3,3,1,3,3,2,1,1))
+audit.risk <- factor(c(1,1,1,1,2,2,2,2,2,3,3,3,3,3,1,2,3,2,1))
 
 # Add the factor levels and make the data frame
 
